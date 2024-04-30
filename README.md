@@ -1,1 +1,1 @@
-Battlehip on Ethereum 
+The battleship DApp is an application that allows a user to create a battleship game from scratch and makes it joinable by other users or to join a previously created game in two different ways: random or by using the ID of the game created.
