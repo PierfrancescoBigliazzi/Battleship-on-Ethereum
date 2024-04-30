@@ -1,0 +1,56 @@
+
+.bar {
+	background-image: linear-gradient(
+		rgb(48, 48, 48) 13%,
+		rgb(30, 30, 30) 40%,
+		#0c0d11 86%
+	);
+    box-shadow: 1px 2px 4px rgb(20, 20, 20), 0 4px 12px rgb(10, 10, 10);
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.6);
+	text-shadow: 0 -2px 0 black;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    border-color: white;
+    
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: system-ui, sans-serif;
+    border-color: white;
+}
+  
+.title {
+    float: right;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    margin: 0 20px;
+    padding: 0 4px;
+    font-weight: bold;
+}
+
+.account {
+    float: right;
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin: 0 20px;
+    padding: 0 4px;
+    font-weight: bold;
+}

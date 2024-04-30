@@ -1,0 +1,88 @@
+.containerMyBoard{
+    width: 500px;
+    height: 480px;
+    background-image: linear-gradient(
+		rgb(48, 48, 48) 13%,
+		rgb(30, 30, 30) 40%,
+		#0c0d11 86%
+	);
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    border: 3px solid white;
+}
+
+.Axis-row-MyBoard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+    margin-top: auto;
+}
+
+.Axis-column-MyBoard{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.axis-label-MyBoard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+
+.shipsContainerMyBoard{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    top: 11%;
+    left: 14.5%;
+    flex-wrap: wrap;
+}
+
+
+
+.none-MyBoard{
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+}
+.shipPresent-MyBoard{
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+    background-image: url("../../assets/ship.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.shipHit-MyBoard{
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+    background-image: url("../../assets/brokenship.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.shipMiss-MyBoard{
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+    background-image: url("../../assets/sea.png");
+    background-position: center;
+    background-size: contain;
+}

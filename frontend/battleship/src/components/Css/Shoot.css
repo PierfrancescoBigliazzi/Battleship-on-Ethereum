@@ -1,0 +1,61 @@
+.myBoardTitle{
+    position: absolute;
+    top: 19%;
+    text-align: center;
+    left: 5%;
+    width: 500px;
+    font-size: 30px;
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    border: 3px solid black;
+    background: grey;
+    padding: 3px;
+}
+
+.opponentBoardTitle{
+    position: absolute;
+    top: 19%;
+    text-align: center;
+    left: 50%;
+    width: 500px;
+    font-size: 30px;
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    border: 3px solid black;
+    background: grey;
+    padding: 3px;
+}
+
+.containerShot{
+    position: absolute;
+    top: 50%;
+    left: 85%
+}
+
+.shotButton{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    border: 3px solid black;
+    background: grey;
+    width: 150px;
+    height: 60px;
+}
+
+.coordinate{
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    border: 3px solid black;
+    background: grey;
+    width: 150px;
+    height: 60px;
+    padding-top: 10%;
+    margin-bottom: 10px;
+}

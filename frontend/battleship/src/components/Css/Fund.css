@@ -1,0 +1,45 @@
+.fundDiv{
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 60px;
+    padding-left: 60px;
+    align-items: center;
+    gap: 2.5vmin;
+    flex-direction: column;
+    background-image: linear-gradient(
+		rgb(48, 48, 48) 13%,
+		rgb(30, 30, 30) 40%,
+		#0c0d11 86%
+	);
+    margin-top: 30px;
+    border: 3px solid white;
+}
+
+
+.button-fund{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 8vmin;
+    border: 5px solid black;
+    background: grey;
+    margin-left: 20px;
+}
+
+.text{
+    color: rgba(251, 248, 248, 0.6);
+    text-shadow: 0 -2px 0 white;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,5 @@
+const InitialState = {
+    text: '',
+    type: ''
+};
+

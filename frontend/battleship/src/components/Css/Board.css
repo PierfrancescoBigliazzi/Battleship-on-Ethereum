@@ -1,0 +1,89 @@
+.containerBoard{
+    width: 500px;
+    height: 480px;
+    background-image: linear-gradient(
+		rgb(48, 48, 48) 13%,
+		rgb(30, 30, 30) 40%,
+		#0c0d11 86%
+	);
+    position: absolute;
+    left: 5%;
+    top: 27%;
+    border: 3px solid white;
+}
+.Axis-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+    margin-top: auto;
+}
+
+.Axis-column{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.axis-label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+
+.shipsContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    top: 11%;
+    left: 14.5%;
+    flex-wrap: wrap;
+}
+
+.cell{
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+}
+
+.cell:hover{
+    cursor: pointer;
+    background-color: rgba(20, 235, 45, 0.605);
+}
+
+.selected{
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    background-image: url("../../assets/ship.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.Ships{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    border: 3px solid black;
+    border-bottom: 0px;
+    background: grey;
+}

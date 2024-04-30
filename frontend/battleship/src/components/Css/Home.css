@@ -1,0 +1,102 @@
+@use postcss-nested;
+
+
+.shadow-button-set {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.5vmin;
+  
+  & > li {
+    display: inline-flex;
+    background: black;
+    
+    &:is(:hover, :focus-within) > button:not(:active) {
+      --distance: -10px;
+    }
+  }
+  
+  & button {
+    appearance: none;
+    outline: none;
+    font-size: 5vmin;
+    border: 5px solid black;
+    background: grey;
+    
+    }
+}
+
+button:hover{
+    background-color: lightslategray;
+    color: white;
+    cursor: pointer;
+}
+
+#searchTerm{
+    text-align: center;            
+    height: 100%;
+    float: right;
+    border: 5px solid black;
+    outline: none;
+    background-color: lightgray;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img{
+    padding: 20%;
+    animation: rotation 5s infinite linear;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+html {
+  block-size: 100%;
+}
+
+body {
+  min-block-size: 100%;
+  display: grid;
+  place-content: center;
+  animation: scroll 100s linear infinite;
+  background: url("grid.jpg"),
+    #111111;
+  color: #eee;
+  height: 100vh;
+  min-width: 360px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+
+  
+  @keyframes scroll {
+    100% {
+      background-position: 0px -400%;
+    }
+  }
+  
+  /* Fallback if the operatring system prefers reduced motion*/
+  @media (prefers-reduced-motion) {
+    body {
+      animation: scroll 600s linear infinite;
+    }
+  }
+
